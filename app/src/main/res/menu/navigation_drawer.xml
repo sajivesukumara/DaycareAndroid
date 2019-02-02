@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_share"
+            android:icon="@drawable/ic_down_arrow"
+            android:title="Share app" />
+
+        <item
+            android:id="@+id/action_contact"
+            android:icon="@drawable/ic_arrow_right"
+            android:title="Contact to publisher" />
+
+        <item
+            android:id="@+id/action_rate"
+            android:icon="@drawable/ic_arrow_left"
+            android:title="Rate us" />
+
+        <item
+            android:id="@+id/action_social_circle"
+            android:icon="@drawable/ic_arrow_back"
+            android:title="Social circle" />
+
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_contributor"
+                    android:icon="@drawable/ic_arrow_back"
+                    android:title="Contributor" />
+
+                <item
+                    android:id="@+id/action_app_developers"
+                    android:icon="@drawable/ic_arrow_right"
+                    android:title="Developers" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeDayCare" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppNoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="editTextNormal" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/placeholder__text</item>
+        <item name="android:textSize">@dimen/textSize.Normal</item>
+        <item name="colorAccent">@color/placeholder__text</item>
+        <item name="colorControlNormal">@color/placeholder__text</item>
+        <item name="colorControlActivated">@color/placeholder__text</item>
+    </style>
+
+    <style name="TextView.InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/placeholder__text</item>
+        <item name="android:textSize">@dimen/textSize.Small</item>
+    </style>
+
+    <style name="AppButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textSize">@dimen/textSize.Medium</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-medium</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="bluo_button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_selector</item>
+    </style>
+
+    <style name="Label">
+        <item name="android:textSize">10.7sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#29B6F6</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_copy"
+        android:title="Copy"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_arrow_left"
+        />
+    <item
+        android:id="@+id/action_paste"
+        android:title="Paste"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_arrow_right"
+        />
+    <item
+        android:id="@+id/action_new"
+        android:title="New"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_down_arrow"
+        />
+</menu>
